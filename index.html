@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body style="background-color: rgb(235, 189, 189);">
+    <style>
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2{
+            color: rgb(180, 12, 12);
+        }
+    </style>
+
+    <h1>
+        FORM
+    </h1>
+
+    <form action="someurl" method="post">
+        <h2>Enter your name, age and password</h2>
+        <div>
+            
+            <label>Name:
+                <input type="text" placeholder="Enter your name" name="name">
+                <p></p>
+            </label>            
+        </div>
+
+        <div>
+            <label>Age:
+                <input type="number" placeholder="Enter your age" name="age">
+                <p></p>
+            </label>          
+        </div>
+
+        <div>
+            <label>Password:
+                <input type="password" placeholder="Enter your password" name="password">
+            </label>    
+
+        </div>
+
+        <p></p>
+
+        
+
+        <h2>How are you feeling today?</h2>
+        
+        <input type="radio" id="happy" name="feeling" value="Happy">
+        <label for="happy">Happy</label><br>
+        <input type="radio" id="normal" name="feeling" value="Normal">
+        <label for="happy">Normal</label><br>
+        <input type="radio" id="depressed" name="feeling" value="Depressed">
+        <label for="happy">Depressed</label><br>
+        <input type="radio" id="gg" name="feeling" value="GG">
+        <label for="happy">GG</label><br>
+
+        <h2>Favourite module(s)?</h2>
+        <input type="checkbox" id="ID" name="favmod" value="ID">
+        <label for="vehicle1"> ID</label><br>
+        <input type="checkbox" id="OSNF" name="favmod" value="OSNF">
+        <label for="vehicle2"> OSNF</label><br>
+        <input type="checkbox" id="DB" name="favmod" value="DB">
+        <label for="vehicle3"> DB</label><br>
+        <input type="checkbox" id="PRG" name="favmod" value="PRG">
+        <label for="vehicle3"> PRG</label><br>
+
+        <h2>Feedback</h2>
+        <textarea name="remarks" id="remark" cols="50" rows="15" placeholder="Tell me how can I make this form better"></textarea><br>
+
+        <button>Submit</button>
+
+
+    </form>
+
+
+</body>
+
+
+
+
+
+</html>
